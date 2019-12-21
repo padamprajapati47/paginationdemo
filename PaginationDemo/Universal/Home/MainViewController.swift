@@ -94,7 +94,7 @@ class MainViewController: UIViewController {
                 }
                 else
                 {
-                    Functions.displayAlert(MESSAGES.serverError)
+                    GlobalFunctions.displayAlert(MESSAGES.serverError)
                 }
                 
             }

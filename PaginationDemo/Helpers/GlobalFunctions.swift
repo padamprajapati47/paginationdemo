@@ -8,7 +8,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class Functions: Alamofire.SessionManager {
+class GlobalFunctions: Alamofire.SessionManager {
     
     //Common method to display alert
     class func displayAlert(_ msg:String!,needDismiss:Bool = false,title:String = APP.title)  {

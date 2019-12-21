@@ -13,9 +13,8 @@
 		0807026823AE16A400DE8CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0807026723AE16A400DE8CA8 /* Assets.xcassets */; };
 		0807026B23AE16A400DE8CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0807026923AE16A400DE8CA8 /* LaunchScreen.storyboard */; };
 		0807027C23AE174000DE8CA8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807027723AE173F00DE8CA8 /* Constant.swift */; };
-		0807027D23AE174000DE8CA8 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807027823AE173F00DE8CA8 /* Preference.swift */; };
 		0807027E23AE174000DE8CA8 /* Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807027923AE173F00DE8CA8 /* Extenstion.swift */; };
-		0807027F23AE174000DE8CA8 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807027A23AE173F00DE8CA8 /* Functions.swift */; };
+		0807027F23AE174000DE8CA8 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807027A23AE173F00DE8CA8 /* GlobalFunctions.swift */; };
 		0807028023AE174000DE8CA8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807027B23AE174000DE8CA8 /* API.swift */; };
 		0807028223AE180800DE8CA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807028123AE180800DE8CA8 /* MainViewController.swift */; };
 		0807028523AE187700DE8CA8 /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807028423AE187700DE8CA8 /* Alamofire-SwiftyJSON.swift */; };
@@ -33,9 +32,8 @@
 		0807026A23AE16A400DE8CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0807026C23AE16A400DE8CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0807027723AE173F00DE8CA8 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		0807027823AE173F00DE8CA8 /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
 		0807027923AE173F00DE8CA8 /* Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extenstion.swift; sourceTree = "<group>"; };
-		0807027A23AE173F00DE8CA8 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		0807027A23AE173F00DE8CA8 /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		0807027B23AE174000DE8CA8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0807028123AE180800DE8CA8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0807028423AE187700DE8CA8 /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
@@ -113,8 +111,7 @@
 				0807027B23AE174000DE8CA8 /* API.swift */,
 				0807027723AE173F00DE8CA8 /* Constant.swift */,
 				0807027923AE173F00DE8CA8 /* Extenstion.swift */,
-				0807027A23AE173F00DE8CA8 /* Functions.swift */,
-				0807027823AE173F00DE8CA8 /* Preference.swift */,
+				0807027A23AE173F00DE8CA8 /* GlobalFunctions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -299,9 +296,8 @@
 				0807028923AE18E200DE8CA8 /* DataCell.swift in Sources */,
 				0807027E23AE174000DE8CA8 /* Extenstion.swift in Sources */,
 				0807028D23AE1AFB00DE8CA8 /* Hits.swift in Sources */,
-				0807027D23AE174000DE8CA8 /* Preference.swift in Sources */,
 				0807027C23AE174000DE8CA8 /* Constant.swift in Sources */,
-				0807027F23AE174000DE8CA8 /* Functions.swift in Sources */,
+				0807027F23AE174000DE8CA8 /* GlobalFunctions.swift in Sources */,
 				0807028023AE174000DE8CA8 /* API.swift in Sources */,
 				0807028223AE180800DE8CA8 /* MainViewController.swift in Sources */,
 			);

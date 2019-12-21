@@ -47,14 +47,14 @@ class API: NSObject {
     
     if error != nil {
         if error.code == -1009 || error.code == -1001{
-            Functions.displayAlert(MESSAGES.noNetwork,needDismiss: needDismiss);
+            GlobalFunctions.displayAlert(MESSAGES.noNetwork,needDismiss: needDismiss);
         }
         else if error.code == -6003
         {
             
         }
         else{
-            Functions.displayAlert(MESSAGES.serverError,needDismiss: needDismiss)
+            GlobalFunctions.displayAlert(MESSAGES.serverError,needDismiss: needDismiss)
         }
     }
 }
@@ -65,7 +65,7 @@ class API: NSObject {
     
     func getAllData(_ strApiParameters:String?,block:completionHandler){
         
-        Functions.apiGetCall(API_SEARCH_DATA + APITAG.tags + strApiParameters!, block: { (json, error) -> Void in
+        GlobalFunctions.apiGetCall(API_SEARCH_DATA + APITAG.tags + strApiParameters!, block: { (json, error) -> Void in
             
             if error != nil {
                 self.displayError(error, needDismiss: false)
